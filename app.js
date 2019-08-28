@@ -1,3 +1,5 @@
-const fs = require('fs')
+const validator = require('validator')
+const getNotes = require('./notes.js')
 
-fs.writeFileSync('notes.txt', 'This app is basic af')
+console.log(getNotes());
+console.log(validator.isURL('example.com'))
