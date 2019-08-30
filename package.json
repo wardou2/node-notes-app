@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wardou2/node-notes-app#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "validator": "^11.1.0"
   }
 }
