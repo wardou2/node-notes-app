@@ -5,4 +5,4 @@ const getNotes = require('./notes.js')
 
 console.log(chalk.green.inverse.bold(getNotes()))
 
-console.log(validator.isURL('example.com'))
+console.log(process.argv[2])
