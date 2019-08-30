@@ -1,8 +1,10 @@
-const validator = require('validator')
 const chalk = require('chalk')
-
 const getNotes = require('./notes.js')
 
-console.log(chalk.green.inverse.bold(getNotes()))
+const command = process.argv[2]
+console.log(process.argv)
 
-console.log(process.argv[2])
+switch (command) {
+ case 'add':
+    console.log('Adding note!')
+}
